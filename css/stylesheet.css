@@ -1,27 +1,37 @@
-
 body{
   margin: 0;
   text-align: center;
   font-family: verdana,sans-serif;
 }
-h1 {margin:0 auto;}
+h1 {
+  width: 30%;
+  margin: auto;
+  font-size: 400%;
+}
 h1:hover{color: #BDC3C7;}
 .top-container {
   background-color: #E4F9F5;
-  position: relative;
-  padding: 100px;
-  font-family: 'Montserrat', cursive;
+  padding: 125px;
+  font-family: 'Sacramento', cursive;
 }
 .introduction:hover
 {
   color: #BDC3C7;
 }
+.about
+{
+  font: center;
+}
 h2
 {
+  color:#11999E;
   font-family: 'Montserrat',sans-serif;
 }
 h3
 {
+  width:35%;
+  margin:auto;
+  color:#11999E;
   font-family: 'Montserrat',sans-serif;
 }
 .bottom-cloud {
@@ -30,19 +40,38 @@ h3
   bottom: 300px;
 }
 .top-cloud {
-  position: absolute;
+  position:absolute;
   right: 10%;
-  top: 10px;
+  top: 20px;
 }
 .coading
 {
-  width: 30%;
+  width: 20%;
   height: auto;
 }
 .sandeepimage
 {
-  width: 30%;
-  height: 30%;
+  width: 20%;
+  height: auto;
+}
+.profile{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.skill
+{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+.intrests{
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 1.5;
 }
 .footer-container
 {
@@ -52,12 +81,23 @@ padding: 10px;
 .footertop-cloud
 {
   position: relative;
-  bottom: 0;
-  left: 40%;
+  bottom:0;
+  top: 30px;
+  left: 35%;
 }
 .footerbottom-cloud
 {
   position:relative;
   bottom: 0;
-  right: 40%;
+  right: 35%;
+}
+.contact
+{
+  width: 20%;
+  margin: auto;
+}
+.end
+{
+  width: 20%;
+  margin: auto;
 }
